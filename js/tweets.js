@@ -77,6 +77,7 @@ function parser(data) {
 
 	document.getElementsByClassName("tweets-feed")[0].innerHTML =  parsed;
 	document.getElementsByClassName("tweets-feed")[0].style.opacity =  1;
+	document.getElementsByClassName('tweets-feed')[0].style.wordWrap = "break-word";
 }
 
 /* Taken from https://github.com/fossasia/fossasia-loklak-webtweets/blob/gh-pages/js/loklak-fetcher.js
